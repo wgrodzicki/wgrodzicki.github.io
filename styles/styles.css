@@ -433,6 +433,9 @@ main {
   #index-carousel-caption-title-1 {
     margin-bottom: 20px;
   }
+  #contact-text-1 {
+    font-size: 11px !important;
+  }
 }
 
 @media (max-width: 450px) {
