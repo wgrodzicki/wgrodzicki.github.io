@@ -138,7 +138,7 @@ main {
   padding-top: 20px;
 }
 
-.index-carousel-caption-title {
+#index-carousel-caption-title-1, #index-carousel-caption-title-2, #index-carousel-caption-title-3 {
   font-size: calc(32px + 0.390625vw);
 }
 
@@ -354,7 +354,7 @@ main {
   #index-name {
     /* font-size: calc(24px + 0.390625vw); */
   }
-  .index-carousel-caption-title {
+  #index-carousel-caption-title-1, #index-carousel-caption-title-2, #index-carousel-caption-title-3 {
     font-size: calc(24px + 0.390625vw);
   }
   #contact-side-video {
@@ -392,9 +392,6 @@ main {
   .carousel-item {
     height: 26rem;
   }
-  .index-carousel-caption-title {
-    font-size: calc(20px + 0.390625vw);
-  }
   .index-carousel-caption-description {
     display: none;
   }
@@ -402,9 +399,11 @@ main {
     font-size: calc(15px + 0.390625vw);
   }
   #index-carousel-caption-title-1 {
+    font-size: calc(20px + 0.390625vw);
     margin-bottom: 20px;
   }
   #index-carousel-caption-title-2, #index-carousel-caption-title-3 {
+    font-size: calc(20px + 0.390625vw);
     margin-bottom: 40px;
   }
   #about-content-holder {
