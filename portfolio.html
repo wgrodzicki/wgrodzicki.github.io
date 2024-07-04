@@ -1,0 +1,894 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head><script src="../assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.122.0">
+    <title>Wojciech Grodzicki - Portfolio</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link href="styles/styles.css" rel="stylesheet">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body data-bs-theme="dark">
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol id="check2" viewBox="0 0 16 16">
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+      </symbol>
+      <symbol id="circle-half" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+      </symbol>
+      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+      </symbol>
+      <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+      </symbol>
+    </svg>
+
+    <!-- Navbar -->
+    <header data-bs-theme="dark">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0 mx-auto">
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="skills.html">Skills</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Modals -->
+
+    <!-- Modal 0 -->
+    <div class="modal fade" id="card-0-modal" tabindex="-1" aria-labelledby="card-0-modal-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="card-0-modal-label">Cosmic: A Journey Among Shadows</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <svg class="bd-placeholder-img card-img-modal" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <image href="resources/cosmic-screen.jpg" width="100%">
+            </svg>
+            <p class="text-start fs-6 fw-light">
+              This is a commercial project created and published by the indie game studio
+              <a href="https://ver2.kingspleasure.com/" class="fw-normal custom-link">King's Pleasure</a>.
+              I formed part of the development team for over a year, with focus on C# scripting in Unity. My contribution includes implementation of some of the main character skills,
+              improvement of the gamepad input, parts of the UI as well as parts of the translation and saving systems. I was also writing custom actions for visual scripting and worked with Steam API.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              During the project I had an opportunity to use programming patterns such as: singleton pattern, observer pattern and object pooling.
+              I was also doing my best to apply whenever I could the SOLID principles. Moreover, I worked with many Unity plug-ins, including
+              <a href="https://assetstore.unity.com/packages/tools/visual-scripting/playmaker-368" class="fw-normal custom-link">Playmaker</a>,
+              <a href="https://assetstore.unity.com/packages/tools/visual-scripting/dotween-pro-32416" class="fw-normal custom-link">DOTween</a>,
+              <a href="https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041" class="fw-normal custom-link">Odin Inspector</a>
+              or
+              <a href="https://assetstore.unity.com/packages/tools/localization/i2-localization-14884" class="fw-normal custom-link">I2 Localization</a>.
+              I also got familiar with the
+              <a href="https://www.plasticscm.com/" class="fw-normal custom-link">Plastic SCM</a> source control.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              Watch the trailer on <a href="https://www.youtube.com/watch?v=gkDkzvTwYQo" class="fw-normal custom-link">YouTube</a>.
+              <br>
+              You can purchase the game on
+              <a href="https://store.steampowered.com/app/1769100/Cosmic_A_Journey_Among_Shadows/" class="fw-normal custom-link">the official Steam page</a>.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="card-1-modal" tabindex="-1" aria-labelledby="card-1-modal-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="card-1-modal-label">As Astra</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <svg class="bd-placeholder-img card-img-modal" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <image href="resources/ad-astra-screen.png" width="100%">
+            </svg>
+            <p class="text-start fs-6 fw-light">
+              This is my personal project with focus on 2D platforming, tilemaps and environmental challenges. The game consists of a short story and 3 unique levels of my own design.
+              I developed and implemented gravity-related mechanic that strips the player of the core abilities and forces them to use the level itself to their advantage.
+              I also included puzzle-like mechanics involving movable boxes and transporting platforms. The last part of the game features a final boss battle and special scripted events.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              In the project I followed the OOP principles, made use of inheritance and polymorphism, as well as interfaces and object pooling.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              Tech stack: Unity, C#, LINQ.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              You can play the game online on
+              <a href="https://wgrodzicki.itch.io/ad-astra" class="fw-normal custom-link">Itch.io</a>.
+              <br>
+              The whole project is available on
+              <a href="https://github.com/wgrodzicki/ad-astra" class="fw-normal custom-link">my GitHub</a>.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="card-2-modal" tabindex="-1" aria-labelledby="card-2-modal-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="card-2-modal-label">Math or Words?</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <svg class="bd-placeholder-img card-img-modal" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <image href="resources/math-or-words-screen.PNG" width="100%">
+            </svg>
+            <p class="text-start fs-6 fw-light">
+              This is my personal project developed in the relatively new .NET framework for multiplatform mobile and desktop apps - MAUI.
+              The game has 2 modes: math-oriented and words-oriented. The first one tests player's proficiency in different math operations.
+              The second one consists of word formation and working with associations. Player scores are stored in a local database and can be browsed on demand.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              The project was an opportunity to learn about consuming APIs, in this case the Wikipedia API that serves as a validator of player answers.
+              I used asynchronous programming when retrieving data from the Wikipedia and applied all CRUD operations to the database.
+              I also took advantage of dependency injection for database connection.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              Tech stack: .NET MAUI, C#, LINQ, Json.NET, XAML, SQLite, ADO.NET.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              You can download the desktop build of the app
+              <a href="https://www.dropbox.com/scl/fi/rlsbblq3fbm6yarstvld5/MathOrWords.7z?rlkey=0k65tc2pv8mvzggywx64ecpyc&e=2&dl=0" class="fw-normal custom-link">here</a>.
+            <br>
+            The whole project is available on
+            <a href="https://github.com/wgrodzicki/math-or-words" class="fw-normal custom-link">my GitHub</a>.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 13 -->
+    <div class="modal fade" id="card-13-modal" tabindex="-1" aria-labelledby="card-13-modal-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="card-13-modal-label">Space out of Control</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <svg class="bd-placeholder-img card-img-modal" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <image href="resources/space-out-of-control-screen.png" width="100%">
+            </svg>
+            <p class="text-start fs-6 fw-light">
+              This is a prototype created in Unity with a 5-person team during the
+              <a href="https://itch.io/jam/tk-game-jam-2023" class="fw-normal custom-link">2023 TK Game Jam</a>.
+              The basic premise of the gameplay is to fight off enemies while watching out for periodical changes in the world space,
+              which consist in switching the perspective from 3D/TPP to 2D/top-down. I was involved in the conceptualization and programming part
+              of the project, focusing on the shooting mechanics.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              You can download the game from
+              <a href="https://tostomator3000.itch.io/przestrze-poza-kontrol" class="fw-normal custom-link">Itch.io</a>.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+        
+    <!-- Modal 3 -->
+    <div class="modal fade" id="card-3-modal" tabindex="-1" aria-labelledby="card-3-modal-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="card-3-modal-label">Space Ronin</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <svg class="bd-placeholder-img card-img-modal" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <image href="resources/space-ronin-screen.png" width="100%">
+            </svg>
+            <p class="text-start fs-6 fw-light">
+              This was my first serious project in Unity. The game encompasses 3 levels of my own design with different challenges and a progressive difficulty curve.
+              I enriched the experience with power-ups that enhance player's capabilities and with some unique mechanics that force them
+              to "think outside the top-down shooter box".
+            </p>
+            <p class="text-start fs-6 fw-light">
+              The project served for me as an opportunity to get familiar with Unity-specific scripting conventions.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              Tech stack: Unity, C#.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              Watch project showcase on <a href="https://www.youtube.com/watch?v=8sJFVolDWoY" class="fw-normal custom-link">YouTube</a>.
+              <br>
+              You can play the game online on
+              <a href="https://wgrodzicki.itch.io/space-ronin" class="fw-normal custom-link">Itch.io</a>.
+              <br>
+              The whole project is available on
+              <a href="https://github.com/wgrodzicki/space-ronin" class="fw-normal custom-link">my GitHub</a>.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="modal fade" id="card-4-modal" tabindex="-1" aria-labelledby="card-4-modal-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="card-4-modal-label">The Eradicator</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <svg class="bd-placeholder-img card-img-modal" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <image href="resources/the-eradicator-screen.png" width="100%">
+            </svg>
+            <p class="text-start fs-6 fw-light">
+              This was my first full-stack web app. The front-end consists of the browser-based game, while the back-end allows to optionally create
+              user account to store and browse scores.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              The game was created from scratch in vanilla JavaScript without any additional frameworks, which thaught me a lot about fundamental concepts,
+              such as manual sprite animation, creating hit boxes and parallax effects, using trigonometry for movement patterns and calculating the delta time.
+              On the back-end I applied all CRUD operations to the database, used password hashing and session data storage. It was also a valuable experience
+              to deploy the app to a real-life server.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              Tech stack: JavaScript, HTML, CSS, Bootstrap, Python, Flask, Jinja.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              Watch project showcase on <a href="https://www.youtube.com/watch?v=YYejFXN4yGc" class="fw-normal custom-link">YouTube</a>.
+              <br>
+              You can play the game online <a href="https://wgrodzicki.pythonanywhere.com/" class="fw-normal custom-link">here</a>.
+              <br>
+              The whole project is available on
+              <a href="https://github.com/wgrodzicki/the-eradicator" class="fw-normal custom-link">my GitHub</a>.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="modal fade" id="card-5-modal" tabindex="-1" aria-labelledby="card-5-modal-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="card-5-modal-label">WinOXO</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <svg class="bd-placeholder-img card-img-modal" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <image href="resources/winoxo-screen.png" width="100%">
+            </svg>
+            <p class="text-start fs-6 fw-light">
+              This project is a desktop app that can be seen as an expanded version of the tic-tac-toe game. I included customization options
+              and a virtual opponent that enables a "solo mode" against the machine. Aside from the game itself I provided an option to create 
+              a user account to store scores, see current statistics regarding won, tied and lost games as well as the current place in the player ranking.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              I applied all CRUD operations to the database and made use of the observer programming pattern.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              Tech stack: WinForms, C#, MS SQL Server.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              You can download the the app
+              <a href="https://www.dropbox.com/scl/fi/z9xwjgdabcb55u6rygidc/WinOxo.7z?rlkey=urt0fysfyyldwfss4c02obf8j&e=1&dl=0" class="fw-normal custom-link">here</a>.
+            <br>
+            The whole project is available on
+            <a href="https://github.com/wgrodzicki/winoxo?tab=readme-ov-file" class="fw-normal custom-link">my GitHub</a>.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="modal fade" id="card-6-modal" tabindex="-1" aria-labelledby="card-6-modal-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="card-6-modal-label">HabitHub</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <svg class="bd-placeholder-img card-img-modal" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <image href="resources/habithub-screen.png" width="100%">
+            </svg>
+            <p class="text-start fs-6 fw-light">
+              This project was my introduction to the ASP.NET Core framework. It allows the user to track and manage their habits.
+              I also included a report feature which generates Excel spreadsheets with habit data.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              During the development of the app I learnt about data models and blending C# with HTML through Razor syntax. I applied all
+              CRUD operations to the database, made use of LINQ for ordering and JavaScript-specific features for datetime conversions.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              Tech stack: ASP.NET Core, C#, LINQ, EPPlus, Razor Pages, JavaScript, HTML, CSS, Bootstrap.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              The whole project is available on
+              <a href="https://github.com/wgrodzicki/habithub" class="fw-normal custom-link">my GitHub</a>.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 7 -->
+    <div class="modal fade" id="card-7-modal" tabindex="-1" aria-labelledby="card-7-modal-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="card-7-modal-label">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <svg class="bd-placeholder-img card-img-modal" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <image href="resources/warehouse-screen.png" width="100%">
+            </svg>
+            <p class="text-start fs-6 fw-light">
+              This project is a full-stack web app that simulates a warehouse management system. It can be used in the role of the warehouse
+              coordinator or an employee, each with different access rights. The coordinator is responsible for managing wares and requests,
+              while an employee can browse the items stored and place orders.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              I applied all CRUD operations to the database and made extensive use of LINQ for ordering and sorting features. I also included
+              many safety checks to validate user input before sending data to the database.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              Tech stack: ASP.NET Core, C#, LINQ, Razor Pages, JavaScript, HTML, CSS, Bootstrap.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              The whole project is available on
+              <a href="https://github.com/wgrodzicki/warehouse" class="fw-normal custom-link">my GitHub</a>.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 8 -->
+    <div class="modal fade" id="card-8-modal" tabindex="-1" aria-labelledby="card-8-modal-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="card-8-modal-label">NumApp</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <svg class="bd-placeholder-img card-img-modal" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <image href="resources/numapp-screen.png" width="100%">
+            </svg>
+            <p class="text-start fs-6 fw-light">
+              This project is another classic - a calculator. Created in the multiplatform .NET framework for mobile and desktop apps, MAUI.
+              To make it more interesting I challenged myself with the implementation of additional features: the user can apply
+              the decimal precision of their choice, generate random numbers within the given range, convert numbers to binary and hexadecimal
+              as well as save calculations locally in a JSON file.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              During the development of the project I learnt about using streams to write to JSON files as well as XAML for user-friendly interfaces.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              Tech stack: .NET MAUI, C#, Json.NET.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              The whole project is available on
+              <a href="https://github.com/wgrodzicki/numapp" class="fw-normal custom-link">my GitHub</a>.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 9 -->
+    <div class="modal fade" id="card-9-modal" tabindex="-1" aria-labelledby="card-9-modal-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="card-9-modal-label">Alchemical Hustle</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <svg class="bd-placeholder-img card-img-modal" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <image href="resources/alchemical-hustle-screen.png" width="100%">
+            </svg>
+            <p class="text-start fs-6 fw-light">
+              This is a gameplay mod I created for The Elder Scrolls III: Morrowind. I'd been always bothered by the fact that in the vanilla Morrowind
+              the use of alchemical potions is very unbalanced and can be used to easily exploit the game. So I came up with a toxicity mechanic
+              using MW script that restricts player's ability to drink potions by applying damage over time. The mod is compatible with the Morrowind
+              engine replacer,
+              <a href="https://openmw.org/faq/#whatis" class="fw-normal custom-link">OpenMW</a>,
+              and includes compatibility patches for other plug-ins.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              The mod is quite popular, having reached over 9000 downloads.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              You can download it from
+              <a href="https://www.nexusmods.com/morrowind/mods/51050" class="fw-normal custom-link">Nexus</a>.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 10 -->
+    <div class="modal fade" id="card-10-modal" tabindex="-1" aria-labelledby="card-10-modal-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="card-10-modal-label">Dissident Ordinators</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <svg class="bd-placeholder-img card-img-modal" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <image href="resources/dissident-ordinators-screen.png" width="100%">
+            </svg>
+            <p class="text-start fs-6 fw-light">
+              This is an immersion mod I created for The Elder Scrolls III: Morrowind during the
+              <a href="https://www.nexusmods.com/morrowind/videos/1645" class="fw-normal custom-link">2023 May Modathon Month</a>.
+              I was inspired by a set of armor developed by another modder and decided to find a lore-friendly way of acquiring it
+              during the game. In order to achieve that I modified some vanilla locations and designed a mini-quest that features
+              the equipment as a reward. I also tweaked the 3D models using NifSkope. The mod is compatible with the Morrowind
+              engine replacer,
+              <a href="https://openmw.org/faq/#whatis" class="fw-normal custom-link">OpenMW</a>.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              The mod won the II place in the immersion category during the Modathon and was featured on
+              <a href="https://www.youtube.com/watch?v=MifI222B7Ak" class="fw-normal custom-link">Youtube</a>.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              You can download it from
+              <a href="https://www.nexusmods.com/morrowind/mods/52874" class="fw-normal custom-link">Nexus</a>.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 11 -->
+    <div class="modal fade" id="card-11-modal" tabindex="-1" aria-labelledby="card-11-modal-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="card-11-modal-label">Morag Tong Armor Revisited</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <svg class="bd-placeholder-img card-img-modal" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <image href="resources/morag-tong-armor-revisited-screen.png" width="100%">
+            </svg>
+            <p class="text-start fs-6 fw-light">
+              This is an equipment mod I created for The Elder Scrolls III: Morrowind. I was inspired by an older mod that introduced
+              a new set armor into the game, but in many aspects was unfinished. I decided to expand on the initial idea, making
+              it more immersive and polished. I also improved the models using NifSkope. The mod is compatible with the Morrowind
+              engine replacer,
+              <a href="https://openmw.org/faq/#whatis" class="fw-normal custom-link">OpenMW</a>,
+              and includes compatibility patches for other plug-ins.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              The mod is pretty popular and has been translated by a fellow volunteer modder to Chinese.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              You can download it from
+              <a href="https://www.nexusmods.com/morrowind/mods/51728" class="fw-normal custom-link">Nexus</a>.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 12 -->
+    <div class="modal fade" id="card-12-modal" tabindex="-1" aria-labelledby="card-12-modal-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="card-12-modal-label">From the Flaming Realm</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <svg class="bd-placeholder-img card-img-modal" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <image href="resources//from-the-flaming-realm-screen.png" width="100%">
+            </svg>
+            <p class="text-start fs-6 fw-light">
+              This is an quest mod I created for The Elder Scrolls III: Morrowind during the
+              <a href="https://forums.nexusmods.com/topic/13481169-the-2024-morrowind-may-modathon-month-modding-competition-celebrating-22-years-of-morrowind/" class="fw-normal custom-link">2024 May Modathon Month</a>.
+              Its inspiration was an interesting set of armor developed by another modder. However, I felt that it needed a proper implementation
+              into the game world and a backstory to make it lore-friendly. So I designed a questline revolving around the armor, wrote original
+              dialogue lines for the NPCs, added scripted events using MW Script and improved the 3D models in NifSkope. The mod is compatible with the Morrowind
+              engine replacer,
+              <a href="https://openmw.org/faq/#whatis" class="fw-normal custom-link">OpenMW</a>.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              You can download it from
+              <a href="https://www.nexusmods.com/morrowind/mods/54696" class="fw-normal custom-link">Nexus</a>.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main>
+
+      <section class="py-5 container">
+
+        <!-- Category dropdown -->
+        <div id="portfolio-dropdown" class="dropdown">
+          <button id="portfolio-dropdown-btn" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Category
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item">All</a></li>
+            <li><a class="dropdown-item">Games</a></li>
+            <li><a class="dropdown-item">Unity</a></li>
+            <li><a class="dropdown-item">Web</a></li>
+            <li><a class="dropdown-item">.NET</a></li>
+            <li><a class="dropdown-item">Mods</a></li>
+          </ul>
+        </div>
+
+        <div class="album py-5 text-center">
+          <div class="container">
+
+            <!-- Cards -->
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+              <!-- Card 0 -->
+              <div id="card-0" class="col">
+                <span class="portfolio-category-tag">games unity</span>
+                <div class="card shadow-sm">
+                  <svg class="card-img-top" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false" data-bs-toggle="modal" data-bs-target="#card-0-modal">
+                    <image href="resources/cosmic-thumbnail.jpg" width="100%">
+                  </svg>
+                  <div class="card-body">
+                    <p class="card-text fs-5">Cosmic: A Journey Among Shadows</p>
+                    <p class="card-text fw-light">Dynamic metroidvania with unique shadow-light mechanics developed at King's Pleasure. Available on Steam.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-md" data-bs-toggle="modal" data-bs-target="#card-0-modal">More</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 1 -->
+              <div id="card-1" class="col">
+                <span class="portfolio-category-tag">games unity</span>
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false" data-bs-toggle="modal" data-bs-target="#card-1-modal">
+                    <image href="resources/ad-astra-thumbnail.png" width="100%">
+                  </svg>
+                  <div class="card-body">
+                    <p class="card-text fs-5">Ad Astra</p>
+                    <p class="card-text fw-light">Classic 2D platformer with some puzzle-like mechanics and scripted events. Personal project made in Unity with C#.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-md" data-bs-toggle="modal" data-bs-target="#card-1-modal">More</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 2 -->
+              <div id="card-2" class="col">
+                <span class="portfolio-category-tag">games .net</span>
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false" data-bs-toggle="modal" data-bs-target="#card-2-modal">
+                    <image href="resources/math-or-words-thumbnail.PNG" width="100%">
+                  </svg>
+                  <div class="card-body">
+                    <p class="card-text fs-5">Math or Words?</p>
+                    <p class="card-text fw-light">Educational game using the Wikipedia API. Personal project made in .NET MAUI with C#, XAML and SQLite.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-md" data-bs-toggle="modal" data-bs-target="#card-2-modal">More</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 13 -->
+              <div id="card-13" class="col">
+                <span class="portfolio-category-tag">games unity</span>
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false" data-bs-toggle="modal" data-bs-target="#card-13-modal">
+                    <image href="resources/space-out-of-control-thumbnail.png" width="100%">
+                  </svg>
+                  <div class="card-body">
+                    <p class="card-text fs-5">Space out of Control</p>
+                    <p class="card-text fw-light">Experimental 3D/2D platformer created within 48 hours during a game jam. Made in Unity with C#.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-md" data-bs-toggle="modal" data-bs-target="#card-13-modal">More</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Card 3 -->
+              <div id="card-3" class="col">
+                <span class="portfolio-category-tag">games unity</span>
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false" data-bs-toggle="modal" data-bs-target="#card-3-modal">
+                    <image href="resources/space-ronin-thumbnail.png" width="100%">
+                  </svg>
+                  <div class="card-body">
+                    <p class="card-text fs-5">Space Ronin</p>
+                    <p class="card-text fw-light">Classic top-down shooter with a backstory and level-specific challenges. Personal project made in Unity with C#.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-md" data-bs-toggle="modal" data-bs-target="#card-3-modal">More</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 4 -->
+              <div id="card-4" class="col">
+                <span class="portfolio-category-tag">games web</span>
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false" data-bs-toggle="modal" data-bs-target="#card-4-modal">
+                    <image href="resources/the-eradicator-thumbnail.png" width="100%">
+                  </svg>
+                  <div class="card-body">
+                    <p class="card-text fs-5">The Eradicator</p>
+                    <p class="card-text fw-light">Endless side-scroller embedded in a full-stack web app. Personal project in JavaScript, with back-end in Flask, Python and SQLite.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-md" data-bs-toggle="modal" data-bs-target="#card-4-modal">More</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 5 -->
+              <div id="card-5" class="col">
+                <span class="portfolio-category-tag">games .net</span>
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false" data-bs-toggle="modal" data-bs-target="#card-5-modal">
+                    <image href="resources/winoxo-thumbnail.png" width="100%">
+                  </svg>
+                  <div class="card-body">
+                    <p class="card-text fs-5">WinOXO</p>
+                    <p class="card-text fw-light">An expanded version of the classic tic-tac-toe game. Personal project made in WinForms with C# and MS SQL Server.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-md" data-bs-toggle="modal" data-bs-target="#card-5-modal">More</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Card 6 -->
+              <div id="card-6" class="col">
+                <span class="portfolio-category-tag">web .net</span>
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false" data-bs-toggle="modal" data-bs-target="#card-6-modal">
+                    <image href="resources/habithub-thumbnail.png" width="100%">
+                  </svg>
+                  <div class="card-body">
+                    <p class="card-text fs-5">HabitHub</p>
+                    <p class="card-text fw-light">Full-stack web app for habit tracking. Personal project made in ASP.NET Core with C#, Razor and SQLite.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-md" data-bs-toggle="modal" data-bs-target="#card-6-modal">More</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 7 -->
+              <div id="card-7" class="col">
+                <span class="portfolio-category-tag">web .net</span>
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false" data-bs-toggle="modal" data-bs-target="#card-7-modal">
+                    <image href="resources/warehouse-thumbnail.png" width="100%">
+                  </svg>
+                  <div class="card-body">
+                    <p class="card-text fs-5">Warehouse</p>
+                    <p class="card-text fw-light">Full-stack web app for warehouse management. Personal project made in ASP.NET Core with C#, Razor and SQLite.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-md" data-bs-toggle="modal" data-bs-target="#card-7-modal">More</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 8 -->
+              <div id="card-8" class="col">
+                <span class="portfolio-category-tag">.net</span>
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false" data-bs-toggle="modal" data-bs-target="#card-8-modal">
+                    <image href="resources/numapp-thumbnail.png" width="100%">
+                  </svg>
+                  <div class="card-body">
+                    <p class="card-text fs-5">NumApp</p>
+                    <p class="card-text fw-light">Classic desktop calculator app with extra math features and saving option. Personal project made in .NET MAUI with C# and XAML.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-md" data-bs-toggle="modal" data-bs-target="#card-8-modal">More</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Card 9 -->
+              <div id="card-9" class="col">
+                <span class="portfolio-category-tag">mods</span>
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false" data-bs-toggle="modal" data-bs-target="#card-9-modal">
+                    <image href="resources/alchemical-hustle-thumbnail.png" width="100%">
+                  </svg>
+                  <div class="card-body">
+                    <p class="card-text fs-5">Alchemical Hustle</p>
+                    <p class="card-text fw-light">Gameplay mod for The Elder Scrolls III: Morrowind. Adds toxicity mechanics to the game. Made with MW Script.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-md" data-bs-toggle="modal" data-bs-target="#card-9-modal">More</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 10 -->
+              <div id="card-10" class="col">
+                <span class="portfolio-category-tag">mods</span>
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false" data-bs-toggle="modal" data-bs-target="#card-10-modal">
+                    <image href="resources/dissident-ordinators-thumbnail.png" width="100%">
+                  </svg>
+                  <div class="card-body">
+                    <p class="card-text fs-5">Dissident Ordinators</p>
+                    <p class="card-text fw-light">Immersion mod for The Elder Scrolls III: Morrowind. Adds a small, lore-friendly faction to the game.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-md" data-bs-toggle="modal" data-bs-target="#card-10-modal">More</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 11 -->
+              <div id="card-11" class="col">
+                <span class="portfolio-category-tag">mods</span>
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false" data-bs-toggle="modal" data-bs-target="#card-11-modal">
+                    <image href="resources/morag-tong-armor-revisited-thumbnail.png" width="100%">
+                  </svg>
+                  <div class="card-body">
+                    <p class="card-text fs-5">Morag Tong Armor Revisited</p>
+                    <p class="card-text fw-light">Equipment mod for The Elder Scrolls III: Morrowind. Adds a new set of armor to the game.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-md" data-bs-toggle="modal" data-bs-target="#card-11-modal">More</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 12 -->
+              <div id="card-12" class="col">
+                <span class="portfolio-category-tag">mods</span>
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false" data-bs-toggle="modal" data-bs-target="#card-12-modal">
+                    <image href="resources/from-the-flaming-thumbnail.png" width="100%">
+                  </svg>
+                  <div class="card-body">
+                    <p class="card-text fs-5">From the Flaming Realm</p>
+                    <p class="card-text fw-light">Adventure mod for The Elder Scrolls III: Morrowind. Adds a new equipment obtainable through a questline. Made with MW Script.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-md" data-bs-toggle="modal" data-bs-target="#card-12-modal">More</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- <footer class="text-body-secondary py-5">
+      <div class="container">
+        <p class="float-end mb-1">
+          <a href="#">Back to top</a>
+        </p>
+        <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+        <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>
+      </div>
+    </footer> -->
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/script.js"></script>
+
+  </body>
+</html>
