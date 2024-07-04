@@ -351,8 +351,8 @@ main {
     left: 10vw;
     right: 10vw;
   }
-  #index-name {
-    /* font-size: calc(24px + 0.390625vw); */
+  #index-carousel-link {
+    display: none;
   }
   #index-carousel-caption-title-1, #index-carousel-caption-title-2, #index-carousel-caption-title-3 {
     font-size: calc(24px + 0.390625vw);
@@ -400,7 +400,7 @@ main {
   }
   #index-carousel-caption-title-1 {
     font-size: calc(20px + 0.390625vw);
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   #index-carousel-caption-title-2, #index-carousel-caption-title-3 {
     font-size: calc(20px + 0.390625vw);
@@ -426,5 +426,17 @@ main {
 @media (max-width: 575px) {
   .card-img-top {
     height: 250px;
+  }
+}
+
+@media (max-width: 493px) {
+  #index-carousel-caption-title-1 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .card-img-top, .card-img-modal {
+    height: 200px;
   }
 }
