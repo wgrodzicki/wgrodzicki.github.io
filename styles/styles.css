@@ -346,6 +346,42 @@ main {
 }
 
 /* Responsiveness */
+@media (min-width: 1400px) {
+  #about-main, #skills-main, #contact-main {
+    height: 45vw;
+  }
+  #about-header-text, #skills-title {
+    font-size: 34px !important;
+  }
+  #about-text-1, #about-text-2, #about-text-3 {
+    font-size: 26px !important;
+  }
+  .progress {
+    height: 40px !important;
+  }
+  #animated-bar-label-0, #animated-bar-label-1, #animated-bar-label-2, #animated-bar-label-3,
+  #animated-bar-label-4, #animated-bar-label-5, #animated-bar-label-6, #animated-bar-label-7,
+  #animated-bar-label-8, #animated-bar-label-9 {
+    margin-bottom: 30px !important;
+  }
+  #animated-bar-label-text-0, #animated-bar-label-text-1, #animated-bar-label-text-2,
+  #animated-bar-label-text-3, #animated-bar-label-text-4, #animated-bar-label-text-5,
+  #animated-bar-label-text-6, #animated-bar-label-text-7,
+  #animated-bar-label-text-8, #animated-bar-label-text-9 {
+    font-size: 26px !important;
+  }
+  #animated-bar-0, #animated-bar-1, #animated-bar-2, #animated-bar-3, #animated-bar-4, #animated-bar-5, #animated-bar-6,
+  #animated-bar-7, #animated-bar-8, #animated-bar-9 {
+    height: 40px;
+  }
+  #contact-content-holder {
+    margin-top: 150px;
+  }
+  #contact-text-1, #contact-text-2, #contact-text-3, #contact-text-4, #contact-text-5 {
+    font-size: 30px;
+  }
+}
+
 @media (max-width: 1200px) {
   #index-top-holder {
     left: 10vw;
