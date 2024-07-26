@@ -383,11 +383,11 @@ main {
 }
 
 /* From: https://stackoverflow.com/questions/61434568/windows-10-scaling-default-above-100-causing-website-sizing-issues?fbclid=IwY2xjawEQsohleHRuA2FlbQIxMAABHWgMrL72ozxj8kuquCiaZq-rySlXvvUvrOCidopi7maQ17WDSNAkDBo1-w_aem_CtgwSjJ2SP70SwI-q6_0iQ */
-@media (-webkit-device-pixel-ratio: 1.25) {
+/* @media (-webkit-device-pixel-ratio: 1.25) {
   * {
     zoom: 0.8;
   }
-}
+} */
 
 @media (max-width: 1200px) {
   #index-top-holder {
