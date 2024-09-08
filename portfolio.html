@@ -110,7 +110,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="card-1-modal-label">As Astra</h1>
+            <h1 class="modal-title fs-5" id="card-1-modal-label">Ad Astra</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
@@ -132,8 +132,50 @@
               You can play the game online on
               <a href="https://wgrodzicki.itch.io/ad-astra" class="fw-normal custom-link">Itch.io</a>.
               <br>
-              The whole project is available on
+              The source code of the project is available on
               <a href="https://github.com/wgrodzicki/ad-astra" class="fw-normal custom-link">my GitHub</a>.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 14 -->
+    <div class="modal fade" id="card-14-modal" tabindex="-1" aria-labelledby="card-14-modal-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="card-14-modal-label">Weaponry System</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <svg class="bd-placeholder-img card-img-modal" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <image href="resources/weaponry-system-thumbnail.png" width="100%">
+            </svg>
+            <p class="text-start fs-6 fw-light">
+              This is my personal project made in Unity with C#. It's a template for a universal weaponry system that can
+              be implemented and extended in a Unity game.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              In the project I used modern Unity's solutions for handling input (InputSystem) and designing UI (UI Toolkit).
+              I also used Addressables, a system that allows to load/unload resources when they are needed which allows
+              to save resources.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              When designing the system I focused on the OOP principles, employing interfaces for better composition and abstract
+              classes to create a hierarchy that can be easily extended depending on the needs of a particular project.
+              I also decided to replace singletons with ScriptableObjects in the role of event managers, which promotes class
+              decoupling.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              Tech stack: Unity, C#, InputSystem, UI Toolkit, Addressables.
+            </p>
+            <p class="text-start fs-6 fw-light">
+              The source code of the project is available on
+              <a href="https://github.com/wgrodzicki/weaponry-system" class="fw-normal custom-link">my GitHub</a>.
             </p>
           </div>
           <div class="modal-footer">
@@ -637,6 +679,25 @@
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-md" data-bs-toggle="modal" data-bs-target="#card-1-modal">More</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 14 -->
+              <div id="card-14" class="col">
+                <span class="portfolio-category-tag">unity</span>
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" role="img" preserveAspectRatio="xMidYMid slice" focusable="false" data-bs-toggle="modal" data-bs-target="#card-14-modal">
+                    <image href="resources/weaponry-system-thumbnail.png" width="100%">
+                  </svg>
+                  <div class="card-body">
+                    <p class="card-text fs-5">Weaponry System</p>
+                    <p class="card-text fw-light">Weaponry system template with extensible architecture for Unity games. Personal project made in Unity with C#.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-md" data-bs-toggle="modal" data-bs-target="#card-14-modal">More</button>
                       </div>
                     </div>
                   </div>
