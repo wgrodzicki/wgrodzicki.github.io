@@ -464,6 +464,10 @@ main {
   #index-top-holder {
     top: 30vw;
   }
+
+  .skills-label {
+    font-size: 10px !important;
+  }
 }
 
 @media (max-width: 575px) {
