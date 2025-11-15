@@ -347,8 +347,11 @@ main {
 
 /* Responsiveness */
 @media (min-width: 1400px) {
-  #about-main, #skills-main, #contact-main {
+  #about-main, #contact-main {
     height: 40vw;
+  }
+  #skills-main {
+    height: 45vw;
   }
   #about-header-text, #skills-title {
     font-size: 32px !important;
@@ -466,7 +469,7 @@ main {
   }
 
   .skills-label {
-    font-size: 10px !important;
+    font-size: 8px !important;
   }
 }
 
