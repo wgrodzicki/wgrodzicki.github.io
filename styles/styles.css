@@ -464,15 +464,17 @@ main {
   #index-top-holder {
     top: 30vw;
   }
-
   .skills-label {
-    font-size: 8px !important;
+    font-size: 7px !important;
   }
 }
 
 @media (max-width: 575px) {
   .card-img-top {
     height: 250px;
+  }
+  .skills-label {
+    font-size: 6px !important;
   }
 }
 
