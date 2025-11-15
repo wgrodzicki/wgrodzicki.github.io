@@ -347,10 +347,7 @@ main {
 
 /* Responsiveness */
 @media (min-width: 1400px) {
-  #about-main, #contact-main {
-    height: 40vw;
-  }
-  #skills-main {
+  #about-main, #skills-main, #contact-main {
     height: 45vw;
   }
   #about-header-text, #skills-title {
