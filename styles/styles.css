@@ -351,10 +351,10 @@ main {
     height: 45vw;
   }
   #about-header-text, #skills-title {
-    font-size: 34px !important;
+    font-size: 32px !important;
   }
   #about-text-1, #about-text-2, #about-text-3, #about-text-4, #about-text-5 {
-    font-size: 22px !important;
+    font-size: 20px !important;
   }
   .progress {
     height: 40px !important;
