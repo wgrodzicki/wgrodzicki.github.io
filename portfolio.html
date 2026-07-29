@@ -133,9 +133,6 @@
                         and focused on adding new gameplay features, requested by players after the EA phase.
                     </p>
                     <p class="text-start fs-6 fw-light">
-                        Technologies: Unity, C#.
-                    </p>
-                    <p class="text-start fs-6 fw-light">
                         Watch the trailer on <a href="https://www.youtube.com/watch?v=uTGvj6_wv5E"
                             class="fw-normal custom-link">YouTube</a>.
                         <br>
@@ -175,9 +172,6 @@
                         well as additions to the translation and saving systems.
                         I was also writing custom extension functionalities for visual scripting used by the designers
                         and worked with Steam API.
-                    </p>
-                    <p class="text-start fs-6 fw-light">
-                        Technologies: Unity, C#.
                     </p>
                     <p class="text-start fs-6 fw-light">
                         Watch the trailer on <a href="https://www.youtube.com/watch?v=gkDkzvTwYQo"
@@ -221,9 +215,6 @@
                         till the final delivery of a playable prototype. My main tasks included the creation and
                         implementation of a multiplayer dialogue system
                         as well as a sound management system.
-                    </p>
-                    <p class="text-start fs-6 fw-light">
-                        Technologies: Unity, C#, Photon PUN.
                     </p>
                     <p class="text-start fs-6 fw-light">
                         Watch the trailer on <a href="https://www.youtube.com/watch?v=Ipfr1IT1syM"
@@ -280,6 +271,57 @@
                         <br>
                         The source code of the project is available on
                         <a href="https://github.com/wgrodzicki/playerprefsjson" class="fw-normal custom-link">my
+                            GitHub</a>.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 20 -->
+    <div class="modal fade" id="card-20-modal" tabindex="-1" aria-labelledby="card-20-modal-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="card-20-modal-label">Food Safety Radar</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <svg class="bd-placeholder-img card-img-modal" width="100%" role="img"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <image href="resources/food-safety-radar-screen.png" width="100%">
+                    </svg>
+                    <p class="text-start fs-6 fw-light">
+                        A data visualization app that allows to monitor the safety of food products based on the data
+                        available through the European's Comission
+                        <a href="https://webgate.ec.europa.eu/rasff-window/screen/search"
+                            class="fw-normal custom-link">RASFF</a>
+                        (Rapid Alert System for Food and Feed) website.
+                    </p>
+                    <p class="text-start fs-6 fw-light">
+                        It enables in-depth exploration of the RASFF notification data thanks to an interactive 3D grid
+                        view and detailed 2D view
+                        with additional charts. Besides notification volume over time across different hazard and
+                        product categories, it also features
+                        a unique dynamics visualization over 90-day windows as well as an "emerging" classification,
+                        flagging the potentially most
+                        important notifications.
+                    </p>
+                    <p class="text-start fs-6 fw-light">
+                        The app comes with several customization options, allowing the user to adjust the 3D grid of
+                        data categories,
+                        change the timeline of interest, and filter notifications based on origin countries. Full
+                        English and Polish localization is supported.
+                    </p>
+                    <p class="text-start fs-6 fw-light">
+                        Technologies: Unity, C#, Python.
+                    </p>
+                    <p class="text-start fs-6 fw-light">
+                        The source code of the project is available on
+                        <a href="https://github.com/wgrodzicki/food-safety-radar-rasff" class="fw-normal custom-link">my
                             GitHub</a>.
                     </p>
                 </div>
@@ -774,7 +816,8 @@
                                 </svg>
                                 <div class="card-body">
                                     <p class="card-text fs-5">My Cafe Manager Simulator</p>
-                                    <p class="card-text fw-light">Casual coffee shop simulator developed at Out of the Ordinary. Available on
+                                    <p class="card-text fw-light">Casual coffee shop simulator developed at Out of the
+                                        Ordinary. Available on
                                         Steam.</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
@@ -853,6 +896,29 @@
                             </div>
                         </div>
 
+                        <!-- Card 20 -->
+                        <div id="card-20" class="col">
+                            <span class="portfolio-category-tag">unity tools</span>
+                            <div class="card shadow-sm">
+                                <svg class="bd-placeholder-img card-img-top" width="100%" role="img"
+                                    preserveAspectRatio="xMidYMid slice" focusable="false" data-bs-toggle="modal"
+                                    data-bs-target="#card-20-modal">
+                                    <image href="resources/food-safety-radar-thumbnail.png" width="100%">
+                                </svg>
+                                <div class="card-body">
+                                    <p class="card-text fs-5">Food Safety Radar</p>
+                                    <p class="card-text fw-light">Data visualization app for in-depth insides into EU RASFF notifications on food safety. Personal
+                                        project made in Unity.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-md" data-bs-toggle="modal"
+                                                data-bs-target="#card-20-modal">More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                         <!-- Card 2 -->
                         <div id="card-2" class="col">
                             <span class="portfolio-category-tag">games .net</span>
@@ -910,7 +976,8 @@
                                 </svg>
                                 <div class="card-body">
                                     <p class="card-text fs-5">Alchemical Hustle</p>
-                                    <p class="card-text fw-light">Gameplay mod for TES III: Morrowind (with 33,000+ downloads).
+                                    <p class="card-text fw-light">Gameplay mod for TES III: Morrowind (with 33,000+
+                                        downloads).
                                         Adds toxicity mechanics to the game. Made in TES: Construction Set.</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
@@ -958,7 +1025,8 @@
                                 <div class="card-body">
                                     <p class="card-text fs-5">Dynamic Morag Tong Armor</p>
                                     <p class="card-text fw-light">Equipment/NPC mod for The Elder Scrolls III:
-                                        Morrowind. Dynamically adds a new set of armor to the game. Made with Lua and OpenMW.</p>
+                                        Morrowind. Dynamically adds a new set of armor to the game. Made with Lua and
+                                        OpenMW.</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-md" data-bs-toggle="modal"
@@ -980,7 +1048,8 @@
                                 </svg>
                                 <div class="card-body">
                                     <p class="card-text fs-5">Dissident Ordinators</p>
-                                    <p class="card-text fw-light">Immersion mod for TES III: Morrowind (with 14,000+ downloads).
+                                    <p class="card-text fw-light">Immersion mod for TES III: Morrowind (with 14,000+
+                                        downloads).
                                         Adds a small, lore-friendly faction to the game. Made in TES: Construction Set.
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
